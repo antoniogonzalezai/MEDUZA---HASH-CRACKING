@@ -30,10 +30,10 @@ time.sleep(1)
 
 while True:
 
-	print("  ..:::MEDUZA CYBERSECURITY:::..     ")
+	print("  ..:::Cyberware Security:::..     ")
 	print("   [*] Hash Cracking [*]")
 	print()
-	print("github.com/meduza-cybersecurity | Instagram @antonio_gonzalez_cr")
+	print("github.com/cyberware-security | Instagram @antonio_gonzalez_cr")
 	print()
 
 	print("                                  Created by Antonio Gonzalez\nVersion 0.1")
