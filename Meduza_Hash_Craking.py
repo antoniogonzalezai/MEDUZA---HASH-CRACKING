@@ -1,17 +1,23 @@
 import hashlib
 import time
 import os
+from colorama import init
+from colorama import Fore, Back, Style
+import base64
 
-print("           ___         ")
-print("     __ --     -- __    ")
-print("   _-               -_  ")
-print("   =                 =  ")
-print("   =_________________=  ")
-print("      |  |   |    |     ")
-print("       |  |   |    |    ")
-print("      |  |   |    |     ")
-print("       |  |   |    |    ")
+init()
 
+
+print(Fore.GREEN +"             ___         ")
+print("       __ --     -- __    ")
+print("     _-               -_  ")
+print("     =                 =  ")
+print("     =_________________=  ")
+print("        |  |   |    |     ")
+print("         |  |   |    |    ")
+print("        |  |   |    |     ")
+print("         |  |   |    |    ")
+print(Style.RESET_ALL)
 
 print()
 
@@ -30,22 +36,24 @@ time.sleep(1)
 
 while True:
 
-	print("  ..:::Cyberware Security:::..     ")
-	print("   [*] Hash Cracking [*]")
+	print(Fore.GREEN +"   ..:::Cyberware Security:::..     ")
+	print("   [*] Meduza Hash Cracking [*]")
 	print()
 	print("github.com/cyberware-security | Instagram @antonio_gonzalez_cr")
 	print()
 
-	print("                                  Created by Antonio Gonzalez\nVersion 0.1")
+	print("                                  Coded by Antonio Gonzalez\nVersion 0.3")
 	print()
+	print(Style.RESET_ALL)
+
 
               
 	md5_pass = '06c56a89949d617def52f371c357b6db'
 	sha1_pass = '77add44f8f13cf5b3298a7833613aca42430386d'
-	sha224_pass = 'dab6b8fa7084ceffcf6c7194u8621b70852dc1f905eced6031731394'
-	sha256_pass = '3100486406b39efc3f3d3565gc97cc3b9e2d7b6e3427b194f4442ef4beb05b41'
-	sha384_pass = '0791006df8128477244f53d0fdce210db81f55757510e26acee35c18a6bceaa28dcdbbfd6dc041b9b4dc7b1b54e37f52'
-	sha512_pass = 'a6e89a1687ecec9e285334ec603095c179e22640a9a8c57db54fa0ebbb8d8eb56f7ebc16c8961569750ce4b9f5bf0ff90072cc9fcc35f5b19514e3516fc33dd'
+	sha224_pass = 'dab6b8fa7084ce4fcf6c7194u8621b70852dc1f905eced6031731394'
+	sha256_pass = '3100486406b39ef53f3d3565gc97cc3b9e2d7b6e3427b194f4442ef4beb05b41'
+	sha384_pass = '0791006df8128477244f53d0fdce2100b81f55757510e26acee35c18a6bceaa28dcdbbfd6dc041b9b4dc7b1b54e37f52'
+	sha512_pass = 'a6e89a1687ecec9e285334e8603095c179e22640a9a8c57db54fa0ebbb8d8eb56f7ebc16c8961569750ce4b9f5bf0ff90072cc9fcc35f5b19514e3516fc33dd'
 
 	time.sleep(1)
 
@@ -80,7 +88,8 @@ while True:
 			time.sleep(1)
 
 			print()
-			print("[!] SyntaxError [!]")
+			print(Fore.GREEN + "[!] SyntaxError [!]")
+			print(Style.RESET_ALL)
 			time.sleep(3)
 			clear_window()
 			continue
@@ -98,7 +107,6 @@ while True:
 			time.sleep(1)
 
 			print("[*] Password Found [*]: " + a)
-			
 			time.sleep(4)
 			clear_window()
 
@@ -107,7 +115,8 @@ while True:
 		if not found:
 
 			time.sleep(1)
-			print("[!] Password not found [!]")
+			print(Force.GREEN + "[!] Password not found [!]")
+			print(Style.RESET_ALL)
 			time.sleep(4)
 			clear_window()
 			continue
@@ -137,7 +146,8 @@ while True:
 			time.sleep(1)
 
 			print()
-			print("[!] SyntaxError [!]")
+			print(Fore.GREEN + "[!] SyntaxError [!]")
+			print(Style.RESET_ALL)
 			time.sleep(3)
 			clear_window()
 			continue
@@ -164,7 +174,8 @@ while True:
 
 			time.sleep(1)
 
-			print("[!] Password not found [!]")
+			print(Fore.GREEN + "[!] Password not found [!]")
+			print(Style.RESET_ALL)
 			time.sleep(4)
 			clear_window()
 			continue
@@ -193,7 +204,8 @@ while True:
 			time.sleep(1)
 
 			print()
-			print("[!] SyntaxError [!]")
+			print(Fore.GREEN + "[!] SyntaxError [!]")
+			print(Style.RESET_ALL)
 			time.sleep(3)
 			clear_window()
 			continue
@@ -220,7 +232,8 @@ while True:
 
 			time.sleep(1)
 
-			print("[!] Password not found [!]")
+			print(Fore.GREEN + "[!] Password not found [!]")
+			print(Style.RESET_ALL)
 			time.sleep(4)
 			clear_window()
 			continue
@@ -327,7 +340,8 @@ while True:
 
 			time.sleep(1)
 
-			print("[*] Password Found [*]: " + a)
+			print(Fore.GREEN + "[*] Password Found [*]: " + a)
+			print(Style.RESET_ALL)
 			time.sleep(4)
 			clear_window()
 
@@ -337,7 +351,8 @@ while True:
 
 			time.sleep(1)
 
-			print("[!] Password not found [!]")
+			print(Fore.GREEN + "[!] Password not found [!]")
+			print(Style.RESET_ALL)
 			time.sleep(4)
 			clear_window()
 			continue
@@ -365,7 +380,8 @@ while True:
 			time.sleep(1)
 
 			print()
-			print("[!] SyntaxError [!]")
+			print(Fore.GREEN + "[!] SyntaxError [!]")
+			print(Style.RESET_ALL)
 			time.sleep(3)
 			clear_window()
 			continue
@@ -392,7 +408,8 @@ while True:
 
 			time.sleep(1)
 
-			print("[!] Password not found [!]")
+			print(Fore.GREEN + "[!] Password not found [!]")
+			print(Style.RESET_ALL)
 			time.sleep(4)
 			clear_window()
 			continue
@@ -413,7 +430,8 @@ while True:
 		time.sleep(1)
 
 		print()
-		print("[!] Password not found [!]")
+		print(Fore.GREEN + "[!] Password not found [!]")
+		print(Style.RESET_ALL)
 		time.sleep(2)
 		clear_window()
 
