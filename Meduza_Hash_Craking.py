@@ -264,7 +264,8 @@ while True:
 			time.sleep(1)
 
 			print()
-			print("[!] SyntaxError [!]")
+			print(Fore.GREEN + "[!] SyntaxError [!]")
+			print(Style.RESET_ALL)
 			time.sleep(3)
 			clear_window()
 			continue
@@ -291,7 +292,8 @@ while True:
 
 			time.sleep(1)
 
-			print("[!] Password not found [!]")
+			print(Fore.GREEN + "[!] Password not found [!]")
+			print(Style.RESET_ALL)
 			time.sleep(4)
 			clear_window()
 			continue
@@ -323,7 +325,8 @@ while True:
 			time.sleep(1)
 
 			print()
-			print("[!] SyntaxError [!]")
+			print(Fore.GREEN + "[!] SyntaxError [!]")
+			print(Style.RESET_ALL)
 			time.sleep(3)
 			clear_window()
 			continue
@@ -340,8 +343,7 @@ while True:
 
 			time.sleep(1)
 
-			print(Fore.GREEN + "[*] Password Found [*]: " + a)
-			print(Style.RESET_ALL)
+			print("[*] Password Found [*]: " + a)
 			time.sleep(4)
 			clear_window()
 
