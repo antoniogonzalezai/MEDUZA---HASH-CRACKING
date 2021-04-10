@@ -8,6 +8,7 @@ And if you don't have it you have to install colorama and hashlib.
 Type in your terminal:
 
 pip install hashlib
+
 pip install colorama
 
 Run: python3 Meduza_Hash_Craking.py
