@@ -35,7 +35,7 @@ time.sleep(1)
 
 while True:
 
-	print(Fore.GREEN +"   ..:::Cyberware Security:::..     ")
+	print(Fore.GREEN +"   ..:::MEDUZA Security:::..     ")
 	print("   [*] Meduza Hash Cracking [*]")
 	print()
 	print("github.com/antoniogonzalezai | Instagram @antonio_gonzalez_cr")
