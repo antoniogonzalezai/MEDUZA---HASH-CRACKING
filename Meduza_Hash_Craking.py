@@ -38,10 +38,10 @@ while True:
 	print(Fore.GREEN +"   ..:::Cyberware Security:::..     ")
 	print("   [*] Meduza Hash Cracking [*]")
 	print()
-	print("github.com/cyberware-security | Instagram @antonio_gonzalez_cr")
+	print("github.com/antoniogonzalezai | Instagram @antonio_gonzalez_cr")
 	print()
 
-	print("                                  Coded by Antonio Gonzalez\nVersion 0.3")
+	print("                                  Coded by Antonio Gonzalez\nVersion 0.4")
 	print()
 	print(Style.RESET_ALL)
 
